@@ -24,7 +24,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
       backgroundColor: Colors.white,
       body: Container(
-        margin: const EdgeInsets.all(25.0),
+        margin: const EdgeInsets.all(20.0),
         child: SingleChildScrollView(
           child: Form(
             key: formkey,
@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: Column(
                         children: [
                           const Align(
-                            alignment: Alignment.topLeft,
+                            alignment: Alignment.centerLeft,
                             child: Text(
                               "Name",
                               style: TextStyle(
